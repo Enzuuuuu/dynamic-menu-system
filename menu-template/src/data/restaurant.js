@@ -1,3 +1,5 @@
+import images from '../assets/images.js'
+
 export const restaurant = {
   // — Informações gerais —
   name:        "smoky",
@@ -10,8 +12,8 @@ export const restaurant = {
   openDays:    [1, 2, 3, 4, 5, 6, 0],
 
   // — Imagens —
-  logo:   '',
-  banner: '',
+  logo: images.logo,
+  banner: images.banner,
 
   // — Categorias (mesma ordem do menu) —
   categories: [
