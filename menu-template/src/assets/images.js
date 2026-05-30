@@ -1,7 +1,7 @@
-import banner from './smokybanner.png'
-import logo from './smokylogo.png'
+// images.js
+const images = import.meta.glob('./*.png', {
+  eager: true,
+  import: 'default'
+})
 
-export default {
-  banner,
-  logo,
-}
+export const getImage = (name) => images[`./${name}`]

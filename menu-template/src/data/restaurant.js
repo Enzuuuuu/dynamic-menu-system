@@ -1,4 +1,5 @@
-import images from '../assets/images.js'
+import { getImage } from '../assets/images'
+
 
 export const restaurant = {
   // — Informações gerais —
@@ -12,8 +13,8 @@ export const restaurant = {
   openDays:    [1, 2, 3, 4, 5, 6, 0],
 
   // — Imagens —
-  logo: images.logo,
-  banner: images.banner,
+  logo: getImage('logo.png'),
+  banner: getImage('banner.png'),
 
   // — Categorias (mesma ordem do menu) —
   categories: [
@@ -41,7 +42,7 @@ export const restaurant = {
       name: 'Smoky Classic',
       description: 'Pão brioche, burger 180g, cheddar cremoso e bacon crocante.',
       price: 29.90,
-      image: '',
+      image: getImage('p1.png'),
     },
     {
       id: 'p2',
@@ -49,7 +50,7 @@ export const restaurant = {
       name: 'Cheese Salad',
       description: 'Burger artesanal, alface americana, tomate e molho da casa.',
       price: 31.90,
-      image: '',
+      image: getImage('p2.png'),
     },
     {
       id: 'p3',
@@ -57,7 +58,7 @@ export const restaurant = {
       name: 'Blue Smoke',
       description: 'Burger 180g, queijo gorgonzola, cebola caramelizada e rúcula.',
       price: 37.90,
-      image: '',
+      image: getImage('p3.png'),
     },
     {
       id: 'p9',
@@ -65,7 +66,7 @@ export const restaurant = {
       name: 'Double Cheddar',
       description: 'Dois burgers smash, cheddar extra e cebola crispy.',
       price: 39.90,
-      image: '',
+      image: getImage('p9.png'),
     },
     {
       id: 'p10',
@@ -73,15 +74,7 @@ export const restaurant = {
       name: 'Bacon Monster',
       description: 'Burger artesanal, muito bacon e molho especial defumado.',
       price: 41.90,
-      image: '',
-    },
-    {
-      id: 'p11',
-      category: 'burgers',
-      name: 'Fire Burger',
-      description: 'Burger apimentado com jalapeños e molho chipotle.',
-      price: 38.90,
-      image: '',
+      image: getImage('p10.png'),
     },
     {
       id: 'p12',
@@ -89,7 +82,7 @@ export const restaurant = {
       name: 'California Burger',
       description: 'Burger bovino, avocado, tomate fresco e molho verde.',
       price: 39.90,
-      image: '',
+      image: getImage('p12.png'),
     },
     {
       id: 'p13',
@@ -97,7 +90,7 @@ export const restaurant = {
       name: 'Veggie Grill',
       description: 'Hambúrguer vegetal, queijo, rúcula e molho pesto.',
       price: 34.90,
-      image: '',
+      image: getImage('p13.png'),
     },
     {
       id: 'p14',
@@ -105,7 +98,7 @@ export const restaurant = {
       name: 'BBQ House',
       description: 'Burger 180g, onion rings e barbecue artesanal.',
       price: 42.90,
-      image: '',
+      image: getImage('p14.png'),
     },
     {
       id: 'p15',
@@ -113,7 +106,7 @@ export const restaurant = {
       name: 'Mexican Hot',
       description: 'Burger com cheddar picante, chipotle e cebola crispy.',
       price: 40.90,
-      image: '',
+      image: getImage('p15.png'),
     },
     {
       id: 'p16',
@@ -121,7 +114,7 @@ export const restaurant = {
       name: 'Truffle Burger',
       description: 'Burger premium, queijo suíço e creme trufado.',
       price: 46.90,
-      image: '',
+      image: getImage('p16.png'),
     },
     {
       id: 'p17',
@@ -129,7 +122,7 @@ export const restaurant = {
       name: 'Prime Angus',
       description: 'Burger Angus, queijo prato, bacon e maionese especial.',
       price: 47.90,
-      image: '',
+      image: getImage('p17.png'),
     },
     {
       id: 'p18',
@@ -137,7 +130,7 @@ export const restaurant = {
       name: 'Green Burger',
       description: 'Burger bovino, avocado e molho de ervas.',
       price: 40.90,
-      image: '',
+      image: getImage('p18.png'),
     },
     {
       id: 'p19',
@@ -145,7 +138,7 @@ export const restaurant = {
       name: 'Blue Cheese Deluxe',
       description: 'Burger artesanal, gorgonzola e cebola caramelizada.',
       price: 43.90,
-      image: '',
+      image: getImage('p19.png')  ,
     },
     {
       id: 'p20',
@@ -153,7 +146,7 @@ export const restaurant = {
       name: 'Titan Burger',
       description: 'Três carnes, cheddar duplo, bacon e molho especial.',
       price: 54.90,
-      image: '',
+      image: getImage('p20.png'),
     },
 
     // ── Combos ──
@@ -163,7 +156,7 @@ export const restaurant = {
       name: 'Combo Classic',
       description: 'Smoky Classic + fritas + refrigerante 350ml.',
       price: 44.90,
-      image: '',
+      image: getImage('p4.png'),
     },
     {
       id: 'p5',
@@ -171,7 +164,7 @@ export const restaurant = {
       name: 'Combo BBQ',
       description: 'BBQ House + onion rings + refrigerante.',
       price: 49.90,
-      image: '',
+      image: getImage('p5.png'),
     },
     {
       id: 'p21',
@@ -179,7 +172,7 @@ export const restaurant = {
       name: 'Combo Crispy Chicken',
       description: 'Chicken burger + fritas + refrigerante.',
       price: 46.90,
-      image: '',
+      image: getImage('p21.png'),
     },
     {
       id: 'p22',
@@ -187,7 +180,7 @@ export const restaurant = {
       name: 'Combo Veggie',
       description: 'Veggie Grill + batata rústica + suco natural.',
       price: 45.90,
-      image: '',
+      image: getImage('p22.png'),
     },
     {
       id: 'p23',
@@ -195,7 +188,7 @@ export const restaurant = {
       name: 'Combo Família',
       description: '2 burgers, frita grande e 2 refrigerantes.',
       price: 89.90,
-      image: '',
+      image: getImage('p23.png'),
     },
 
     // ── Bebidas ──
@@ -205,7 +198,7 @@ export const restaurant = {
       name: 'Refrigerante Lata',
       description: 'Coca-Cola, Guaraná ou Sprite.',
       price: 6.50,
-      image: '',
+      image: getImage('p6.png'),
     },
     {
       id: 'p7',
@@ -213,7 +206,7 @@ export const restaurant = {
       name: 'Suco Natural 500ml',
       description: 'Laranja, limão ou maracujá.',
       price: 10.90,
-      image: '',
+      image: getImage('p7.png'),
     },
 
     // ── Sobremesas ──
@@ -223,7 +216,7 @@ export const restaurant = {
       name: 'Brownie Supreme',
       description: 'Brownie artesanal com sorvete e calda de chocolate.',
       price: 16.90,
-      image: '',
+      image: getImage('p8.png'),
     },
   ],
 }
